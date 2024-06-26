@@ -1,4 +1,4 @@
-REBAR=rebar3
+REBAR=./rebar3
 RUN_EQC=erl -pa _build/default/lib/enacl/ebin -noshell -s enacl_eqc -s init stop
 
 .PHONY: compile
